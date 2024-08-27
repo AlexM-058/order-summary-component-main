@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  background-image: url(./pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color:  hsl(225, 100%, 94%);
+    font-family: "Red Hat Display", sans-serif;
+}
+.container{
+    margin: 60px;
+ background-color: white; 
+ height: 600px;
+ width: 380px;
+ border-radius: 24px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.056),0 4px 20px rgba(0, 0, 0, 0.058);
+   
+ 
+}
+.girl{
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    width: 380px;
+}
+.content{
+    text-align: center;
+    padding: 10px 30px 30px 30px;
+   
+}
+.summary{
+    font-weight: 900;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    -webkit-text-fill-color: hsl(223, 47%, 23%);
+
+}
+.paragraph{
+    -webkit-text-fill-color: hsl(224, 23%, 55%);
+    padding: 30px;
+}
+.case{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   background-color:  hsl(225, 100%, 98%); 
+   padding:20px;
+   border-radius: 16px;
+}
+.Annual{
+    -webkit-text-fill-color: hsl(223, 47%, 23%);
+     font-weight: 900;
+    
+}
+.big-case{
+    margin-left: -50px;
+    line-height: 24px;
+}
+.Change{
+    margin-top: 10px;
+    -webkit-text-fill-color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.Change:hover{
+   opacity: .5;
+   text-decoration-line: none;
+}
+button{
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+     font-family: "Red Hat Display", sans-serif;
+     border: solid 0px;
+      font-family: "Red Hat Display", sans-serif;
+      font-weight: 700;
+}
+.Cancel{
+    background-color: white;
+    border-color: white;
+      margin-top: 10px;
+      opacity: .7;
+
+}
+.Cancel:hover{
+    background-color: white;
+    border-color: white;
+    margin-top: 10px;
+    opacity: 1;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+}
+.blue{
+-webkit-text-fill-color: white;
+background-color: hsl(245, 75%, 52%);
+}
+.blue:hover{
+    opacity: .7;
+}
+@media (max-width:600px){
+   body{
+    padding: 30px;
+   }
+   .container{
+    margin-top: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.056),0 4px 20px rgba(0, 0, 0, 0.058);
+   }
+
+}
